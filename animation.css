@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+div{
+
+    height: 50px;
+    width: 50px;
+    animation-name: loader;
+    animation-delay:1s;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-direction: infinite;
+    margin-left: 250px;
+}
+@keyframes loader{
+    from{
+        transform: rotate(180deg);
+
+    }
+    to{
+        transform: rotate(30deg);
+    }
+}
